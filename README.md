@@ -65,7 +65,7 @@ Please see the attached LICENSE document.
 ## Version History
 
 - See  [CHANGELOG.md](https://github.com/vactraccovid/vactrac/blob/master/CHANGELOG.md)
-- 0.9.0 - 2021-03-03 - 
+- 0.9.0 - 2021-03-03 - VACTRACCovid19Vaccine_2021-03-04_1216.REDCap.xml 
 
 ## Author and Acknowledgements
 

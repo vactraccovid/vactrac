@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="VACTRAC - Covid-19 Vaccine Pop Health Solution" AsOfDateTime="2021-03-04T12:16:46" CreationDateTime="2021-03-04T12:16:46" SourceSystem="REDCap" SourceSystemVersion="10.3.8">
+<Study OID="Project.VACTRACCovid19VaccinePopHealth">
+<GlobalVariables>
+	<StudyName>VACTRAC - Covid-19 Vaccine Pop Health Solution</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "VACTRAC - Covid-19 Vaccine Pop Health Solution".</StudyDescription>
+	<ProtocolName>VACTRAC - Covid-19 Vaccine Pop Health Solution</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField>email</redcap:SurveyInvitationEmailField>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:RepeatingInstrumentsAndEvents>
+		<redcap:RepeatingInstruments>
+			<redcap:RepeatingInstrument redcap:UniqueEventName="initial_data_arm_1" redcap:RepeatInstrument="vaccination_outreach_table" redcap:CustomLabel="[pt_lname],[pt_fname],[pt_mname],[pt_dob],[pt_phone]"/>
+		</redcap:RepeatingInstruments>
+	</redcap:RepeatingInstrumentsAndEvents>
+	<redcap:DataAccessGroupsGroup>
+		<redcap:DataAccessGroups group_name="musc bmic"/>
+	</redcap:DataAccessGroupsGroup>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="prescreening_registration" title="Registration - Immunization Pop Health Solution for SC" instructions="&lt;p&gt;&lt;strong&gt;Please complete the survey below.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" question_by_section="0" display_page_number="0" question_auto_numbering="1" survey_enabled="1" save_and_return="1" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="1" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="1" theme="" text_size="" font_family="" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5=""/>
+		<redcap:Surveys form_name="demographic_file_upload" title="Demographic File Upload" instructions="&lt;p&gt;&lt;strong&gt;Please complete the survey below.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="1" save_and_return="1" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="1" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="redcap test" confirmation_email_content="&lt;p&gt;redcap test&lt;/p&gt;" confirmation_email_from="dingw@musc.edu" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="1" theme="" text_size="" font_family="" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5=""/>
+		<redcap:Surveys form_name="vaccination_outreach_table" title="Vaccination Outreach Table" instructions="&lt;p&gt;&lt;strong&gt;Please complete the survey below.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="1" save_and_return="1" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="1" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="1" theme="" text_size="" font_family="" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="1" repeat_survey_btn_text="Take this survey again" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5=""/>
+	</redcap:SurveysGroup>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="COVID-19 vaccine tracker" report_order="1" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="1" output_survey_fields="1" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="participant_id" orderby_sort1="ASC" orderby_field2="name" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic=" ([initial_data_arm_1][employer_name] = &quot;&quot;) AND ([event-name][vaccine_received] = &quot;&quot;) AND ([event-name][vaccine_date_1st] = &quot;&quot;) AND ([event-name][vaccine_name] = &quot;&quot;)" filter_type="RECORD" dynamic_filter1="vaccine_received" dynamic_filter2="vaccine_name" dynamic_filter3="contacted" fields="Array" limiter_fields="Array" limiter_dags="Array" limiter_events="Array" limiter_logic="([initial_data_arm_1][employer_name] = &quot;&quot;) AND ([vaccine_received] = &quot;&quot;) AND ([vaccine_date_1st] = &quot;&quot;) AND ([vaccine_name] = &quot;&quot;)" user_access_users="Array" user_access_roles="Array" user_access_dags="Array" user_edit_access_users="Array" user_edit_access_roles="Array" user_edit_access_dags="Array" redcap_reports_fields="participant_id,employer_name,name,dob,gender,vaccine_received,vaccine_name,vaccine_date_1st,vaccine_date_2nd,contacted,date_contact" redcap_reports_filter_dags="musc_bmic" redcap_reports_filter_events="initial_data_arm_1" ID="2a0826042e75b86b3eefe9acac7994cda3e3a688"/>
+	</redcap:ReportsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.VACTRACCovid19VaccinePopHealth_2021-03-04_1216" Name="VACTRAC - Covid-19 Vaccine Pop Health Solution" redcap:RecordIdField="participant_id">
+	<Protocol>
+		<StudyEventRef StudyEventOID="Event.initial_data_arm_1" OrderNumber="1" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.final_data_arm_1" OrderNumber="2" Mandatory="No"/>
+	</Protocol>
+	<StudyEventDef OID="Event.initial_data_arm_1" Name="Initial Data" Type="Common" Repeating="No" redcap:EventName="Initial Data" redcap:CustomEventLabel="" redcap:UniqueEventName="initial_data_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="2" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.prescreening_registration" OrderNumber="1" Mandatory="No" redcap:FormName="prescreening_registration"/>
+		<FormRef FormOID="Form.demographic_file_upload" OrderNumber="2" Mandatory="No" redcap:FormName="demographic_file_upload"/>
+		<FormRef FormOID="Form.vaccination_outreach_table" OrderNumber="3" Mandatory="No" redcap:FormName="vaccination_outreach_table"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.final_data_arm_1" Name="Final Data" Type="Common" Repeating="No" redcap:EventName="Final Data" redcap:CustomEventLabel="" redcap:UniqueEventName="final_data_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="3" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.completion_data_to_be_entered_by_registered_redcap" OrderNumber="1" Mandatory="No" redcap:FormName="completion_data_to_be_entered_by_registered_redcap"/>
+	</StudyEventDef>
+	<FormDef OID="Form.prescreening_registration" Name="Pre-Screening - Registration" Repeating="No" redcap:FormName="prescreening_registration">
+		<ItemGroupRef ItemGroupOID="prescreening_registration.participant_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prescreening_registration.employer_name" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prescreening_registration.employer_address" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prescreening_registration.primary_contact_name" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prescreening_registration.primary_contact_mobile" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prescreening_registration.prescreening_registration_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.demographic_file_upload" Name="Demographic File Upload" Repeating="No" redcap:FormName="demographic_file_upload">
+		<ItemGroupRef ItemGroupOID="demographic_file_upload.date_enrolled_org" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="demographic_file_upload.demographic_file_upload_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.vaccination_outreach_table" Name="Vaccination Outreach Table" Repeating="No" redcap:FormName="vaccination_outreach_table">
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.name" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.date_enrolled" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.vaccine_received" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.opt_out___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.decline___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.facility_code" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.mpi" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.are_inc_risk_cancer" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.are_inc_risk_ckd" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="vaccination_outreach_table.vaccination_outreach_table_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.completion_data_to_be_entered_by_registered_redcap" Name="Completion Data (to be entered by registered REDCap user only)" Repeating="No" redcap:FormName="completion_data_to_be_entered_by_registered_redcap">
+		<ItemGroupRef ItemGroupOID="completion_data_to_be_entered_by_registered_redcap.complete_study" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="completion_data_to_be_entered_by_registered_redcap.withdraw_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="completion_data_to_be_entered_by_registered_redcap.completion_data_to_be_entered_by_registered_redcap_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="prescreening_registration.participant_id" Name="Pre-Screening - Registration" Repeating="No">
+		<ItemRef ItemOID="participant_id" Mandatory="No" redcap:Variable="participant_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prescreening_registration.employer_name" Name="Please fill out the information below." Repeating="No">
+		<ItemRef ItemOID="employer_name" Mandatory="Yes" redcap:Variable="employer_name"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prescreening_registration.employer_address" Name="Pre-Screening - Registration" Repeating="No">
+		<ItemRef ItemOID="employer_address" Mandatory="Yes" redcap:Variable="employer_address"/>
+		<ItemRef ItemOID="employer_phone" Mandatory="Yes" redcap:Variable="employer_phone"/>
+		<ItemRef ItemOID="employer_email" Mandatory="Yes" redcap:Variable="employer_email"/>
+		<ItemRef ItemOID="employer_fein" Mandatory="No" redcap:Variable="employer_fein"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prescreening_registration.primary_contact_name" Name="Primary Contact at Organization" Repeating="No">
+		<ItemRef ItemOID="primary_contact_name" Mandatory="Yes" redcap:Variable="primary_contact_name"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prescreening_registration.primary_contact_mobile" Name="Pre-Screening - Registration" Repeating="No">
+		<ItemRef ItemOID="primary_contact_mobile" Mandatory="Yes" redcap:Variable="primary_contact_mobile"/>
+		<ItemRef ItemOID="primary_contact_phone" Mandatory="Yes" redcap:Variable="primary_contact_phone"/>
+		<ItemRef ItemOID="primary_contact_email" Mandatory="Yes" redcap:Variable="primary_contact_email"/>
+		<ItemRef ItemOID="consent___1" Mandatory="Yes" redcap:Variable="consent"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prescreening_registration.prescreening_registration_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prescreening_registration_complete" Mandatory="No" redcap:Variable="prescreening_registration_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="demographic_file_upload.date_enrolled_org" Name="Demographic File Upload" Repeating="No">
+		<ItemRef ItemOID="date_enrolled_org" Mandatory="Yes" redcap:Variable="date_enrolled_org"/>
+		<ItemRef ItemOID="manually_input" Mandatory="Yes" redcap:Variable="manually_input"/>
+		<ItemRef ItemOID="excel_template" Mandatory="No" redcap:Variable="excel_template"/>
+		<ItemRef ItemOID="patients_list_excel" Mandatory="Yes" redcap:Variable="patients_list_excel"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="demographic_file_upload.demographic_file_upload_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="demographic_file_upload_complete" Mandatory="No" redcap:Variable="demographic_file_upload_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.name" Name="Vaccination Outreach Table" Repeating="No">
+		<ItemRef ItemOID="name" Mandatory="Yes" redcap:Variable="name"/>
+		<ItemRef ItemOID="dob" Mandatory="Yes" redcap:Variable="dob"/>
+		<ItemRef ItemOID="age" Mandatory="Yes" redcap:Variable="age"/>
+		<ItemRef ItemOID="gender" Mandatory="No" redcap:Variable="gender"/>
+		<ItemRef ItemOID="ethnic" Mandatory="No" redcap:Variable="ethnic"/>
+		<ItemRef ItemOID="race" Mandatory="No" redcap:Variable="race"/>
+		<ItemRef ItemOID="mobile_phone" Mandatory="Yes" redcap:Variable="mobile_phone"/>
+		<ItemRef ItemOID="home_phone" Mandatory="No" redcap:Variable="home_phone"/>
+		<ItemRef ItemOID="email" Mandatory="No" redcap:Variable="email"/>
+		<ItemRef ItemOID="pt_address" Mandatory="No" redcap:Variable="pt_address"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.date_enrolled" Name="Section B: Vaccine Information" Repeating="No">
+		<ItemRef ItemOID="date_enrolled" Mandatory="No" redcap:Variable="date_enrolled"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.vaccine_received" Name="Vaccination Outreach Table" Repeating="No">
+		<ItemRef ItemOID="vaccine_received" Mandatory="Yes" redcap:Variable="vaccine_received"/>
+		<ItemRef ItemOID="vaccine_name" Mandatory="Yes" redcap:Variable="vaccine_name"/>
+		<ItemRef ItemOID="vaccine_date_1st" Mandatory="Yes" redcap:Variable="vaccine_date_1st"/>
+		<ItemRef ItemOID="vaccine_date_2nd" Mandatory="Yes" redcap:Variable="vaccine_date_2nd"/>
+		<ItemRef ItemOID="vaccination_phase" Mandatory="Yes" redcap:Variable="vaccination_phase"/>
+		<ItemRef ItemOID="vaccine_status" Mandatory="No" redcap:Variable="vaccine_status"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.opt_out___1" Name="Section C: Attempt Detail" Repeating="No">
+		<ItemRef ItemOID="opt_out___1" Mandatory="No" redcap:Variable="opt_out"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.decline___1" Name="" Repeating="No">
+		<ItemRef ItemOID="decline___1" Mandatory="No" redcap:Variable="decline"/>
+		<ItemRef ItemOID="total_contact" Mandatory="No" redcap:Variable="total_contact"/>
+		<ItemRef ItemOID="contacted" Mandatory="No" redcap:Variable="contacted"/>
+		<ItemRef ItemOID="date_contact" Mandatory="No" redcap:Variable="date_contact"/>
+		<ItemRef ItemOID="subres" Mandatory="No" redcap:Variable="subres"/>
+		<ItemRef ItemOID="method_contact" Mandatory="No" redcap:Variable="method_contact"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.facility_code" Name="Section D: Clinical Consideration Information
+" Repeating="No">
+		<ItemRef ItemOID="facility_code" Mandatory="No" redcap:Variable="facility_code"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.mpi" Name="Vaccination Outreach Table" Repeating="No">
+		<ItemRef ItemOID="mpi" Mandatory="No" redcap:Variable="mpi"/>
+		<ItemRef ItemOID="covid_test" Mandatory="No" redcap:Variable="covid_test"/>
+		<ItemRef ItemOID="covid_test_date" Mandatory="Yes" redcap:Variable="covid_test_date"/>
+		<ItemRef ItemOID="covid_infusion" Mandatory="No" redcap:Variable="covid_infusion"/>
+		<ItemRef ItemOID="covid_infusion_date" Mandatory="Yes" redcap:Variable="covid_infusion_date"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.are_inc_risk_cancer" Name="Do you have the following conditions are at increased risk of severe illness from the virus that causes COVID-19:
+Additional information on these medical conditions is available at:
+https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html" Repeating="No">
+		<ItemRef ItemOID="are_inc_risk_cancer" Mandatory="No" redcap:Variable="are_inc_risk_cancer"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.are_inc_risk_ckd" Name="Vaccination Outreach Table" Repeating="No">
+		<ItemRef ItemOID="are_inc_risk_ckd" Mandatory="No" redcap:Variable="are_inc_risk_ckd"/>
+		<ItemRef ItemOID="are_inc_risk_copd" Mandatory="No" redcap:Variable="are_inc_risk_copd"/>
+		<ItemRef ItemOID="are_inc_risk_ds" Mandatory="No" redcap:Variable="are_inc_risk_ds"/>
+		<ItemRef ItemOID="are_inc_risk_heart" Mandatory="No" redcap:Variable="are_inc_risk_heart"/>
+		<ItemRef ItemOID="are_inc_risk_wis" Mandatory="No" redcap:Variable="are_inc_risk_wis"/>
+		<ItemRef ItemOID="are_inc_risk_obesity" Mandatory="No" redcap:Variable="are_inc_risk_obesity"/>
+		<ItemRef ItemOID="are_inc_risk_sobesity" Mandatory="No" redcap:Variable="are_inc_risk_sobesity"/>
+		<ItemRef ItemOID="are_inc_risk_preg" Mandatory="No" redcap:Variable="are_inc_risk_preg"/>
+		<ItemRef ItemOID="are_inc_risk_scd" Mandatory="No" redcap:Variable="are_inc_risk_scd"/>
+		<ItemRef ItemOID="are_inc_risk_smoke" Mandatory="No" redcap:Variable="are_inc_risk_smoke"/>
+		<ItemRef ItemOID="are_inc_risk_type2diab" Mandatory="No" redcap:Variable="are_inc_risk_type2diab"/>
+		<ItemRef ItemOID="admin_process_status" Mandatory="No" redcap:Variable="admin_process_status"/>
+		<ItemRef ItemOID="admin_process_time" Mandatory="No" redcap:Variable="admin_process_time"/>
+		<ItemRef ItemOID="admin_unique_key" Mandatory="No" redcap:Variable="admin_unique_key"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="vaccination_outreach_table.vaccination_outreach_table_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="vaccination_outreach_table_complete" Mandatory="No" redcap:Variable="vaccination_outreach_table_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="completion_data_to_be_entered_by_registered_redcap.complete_study" Name="This form is to be filled out by primary contact personnel." Repeating="No">
+		<ItemRef ItemOID="complete_study" Mandatory="Yes" redcap:Variable="complete_study"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="completion_data_to_be_entered_by_registered_redcap.withdraw_date" Name="Completion Data (to be entered by registered REDCap user only)" Repeating="No">
+		<ItemRef ItemOID="withdraw_date" Mandatory="Yes" redcap:Variable="withdraw_date"/>
+		<ItemRef ItemOID="study_comments" Mandatory="No" redcap:Variable="study_comments"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="completion_data_to_be_entered_by_registered_redcap.completion_data_to_be_entered_by_registered_redcap_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="completion_data_to_be_entered_by_registered_redcap_complete" Mandatory="No" redcap:Variable="completion_data_to_be_entered_by_registered_redcap_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="participant_id" Name="participant_id" DataType="text" Length="999" redcap:Variable="participant_id" redcap:FieldType="text">
+		<Question><TranslatedText>Participant ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="employer_name" Name="employer_name" DataType="text" Length="999" redcap:Variable="employer_name" redcap:FieldType="text" redcap:SectionHeader="Please fill out the information below." redcap:RequiredField="y">
+		<Question><TranslatedText>Organization Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="employer_address" Name="employer_address" DataType="text" Length="999" redcap:Variable="employer_address" redcap:FieldType="textarea" redcap:RequiredField="y">
+		<Question><TranslatedText>Organization Address (Street, City, State, ZIP)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="employer_phone" Name="employer_phone" DataType="text" Length="999" redcap:Variable="employer_phone" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Organization Phone</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="employer_email" Name="employer_email" DataType="text" Length="999" redcap:Variable="employer_email" redcap:FieldType="text" redcap:TextValidationType="email" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Organization E-mail address</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="employer_fein" Name="employer_fein" DataType="text" Length="999" redcap:Variable="employer_fein" redcap:FieldType="text">
+		<Question><TranslatedText>Organization FEIN</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="primary_contact_name" Name="primary_contact_name" DataType="text" Length="999" redcap:Variable="primary_contact_name" redcap:FieldType="text" redcap:SectionHeader="Primary Contact at Organization" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Primary Contact Person Name (First Middle Last)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="primary_contact_mobile" Name="primary_contact_mobile" DataType="text" Length="999" redcap:Variable="primary_contact_mobile" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Primary Contact Person Mobile Phone</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="primary_contact_phone" Name="primary_contact_phone" DataType="text" Length="999" redcap:Variable="primary_contact_phone" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Primary Contact Person Business Phone</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="primary_contact_email" Name="primary_contact_email" DataType="text" Length="999" redcap:Variable="primary_contact_email" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Primary Contact Person Email</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="consent___1" Name="consent___1" DataType="boolean" Length="1" redcap:Variable="consent" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>By checking this box:
+ I attest the information I&#039;ve provided is truthful and that I am eligible, per SC DHEC guidelines, to receive the COVID-19 vaccine history.
+I have verified my email address and phone number are entered correctly. I understand I will receive an alert by email or phone (if no email) when I can request a COVID-19 vaccine. I understand this form is not a vaccine request, and I will still need to submit a vaccine request when I receive the alert.</TranslatedText></Question>
+		<CodeListRef CodeListOID="consent___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="prescreening_registration_complete" Name="prescreening_registration_complete" DataType="text" Length="1" redcap:Variable="prescreening_registration_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prescreening_registration_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="date_enrolled_org" Name="date_enrolled_org" DataType="date" Length="999" redcap:Variable="date_enrolled_org" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:FieldNote="YYYY-MM-DD" redcap:RequiredField="y" redcap:BranchingLogic="[prescreening_registration_complete] = &#039;2&#039;" redcap:FieldAnnotation="@TODAY @READONLY">
+		<Question><TranslatedText>Initialization Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="manually_input" Name="manually_input" DataType="text" Length="1" redcap:Variable="manually_input" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[prescreening_registration_complete] = &#039;2&#039;">
+		<Question><TranslatedText>You can choose to Bulk Upload an Employee/Personnel list file or manually input your list</TranslatedText></Question>
+		<CodeListRef CodeListOID="manually_input.choices"/>
+	</ItemDef>
+	<ItemDef OID="excel_template" Name="excel_template" DataType="text" Length="999" redcap:Variable="excel_template" redcap:FieldType="descriptive" redcap:BranchingLogic="[manually_input] = &#039;1&#039;">
+		<Question><TranslatedText>Click the link below to download your data import template as an Excel file. Save it locally to your computer and then open it to begin filling it with the data you wish to import.</TranslatedText></Question>
+		<redcap:Attachment DocName="ImmunizationPopHealth_Personnel List.xlsx" MimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"><![CDATA[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]]></redcap:Attachment>
+	</ItemDef>
+	<ItemDef OID="patients_list_excel" Name="patients_list_excel" DataType="text" Length="999" redcap:Variable="patients_list_excel" redcap:FieldType="file" redcap:RequiredField="y" redcap:BranchingLogic="[manually_input] = &#039;1&#039;">
+		<Question><TranslatedText>Upload the Employee COVID-19 Vaccination Tracking Sheet</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="demographic_file_upload_complete" Name="demographic_file_upload_complete" DataType="text" Length="1" redcap:Variable="demographic_file_upload_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="demographic_file_upload_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="name" Name="name" DataType="text" Length="999" redcap:Variable="name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dob" Name="dob" DataType="date" Length="999" redcap:Variable="dob" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:FieldNote="YYYY-MM-DD" redcap:RequiredField="y" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Date of Birth</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age" Name="age" DataType="float" Length="999" redcap:Variable="age" redcap:FieldType="calc" redcap:Calculation="rounddown( datediff([dob],[date_enrolled],&quot;y&quot;), 0)" redcap:RequiredField="y" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:FieldAnnotation="@READONLY">
+		<Question><TranslatedText>Age</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="gender" Name="gender" DataType="text" Length="1" redcap:Variable="gender" redcap:FieldType="radio" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Gender</TranslatedText></Question>
+		<CodeListRef CodeListOID="gender.choices"/>
+	</ItemDef>
+	<ItemDef OID="ethnic" Name="ethnic" DataType="text" Length="1" redcap:Variable="ethnic" redcap:FieldType="radio" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Ethnicity</TranslatedText></Question>
+		<CodeListRef CodeListOID="ethnic.choices"/>
+	</ItemDef>
+	<ItemDef OID="race" Name="race" DataType="text" Length="1" redcap:Variable="race" redcap:FieldType="select" redcap:TextValidationType="autocomplete" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Race</TranslatedText></Question>
+		<CodeListRef CodeListOID="race.choices"/>
+	</ItemDef>
+	<ItemDef OID="mobile_phone" Name="mobile_phone" DataType="text" Length="999" redcap:Variable="mobile_phone" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Mobile Phone</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="home_phone" Name="home_phone" DataType="text" Length="999" redcap:Variable="home_phone" redcap:FieldType="text">
+		<Question><TranslatedText>Home Phone</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="email" Name="email" DataType="text" Length="999" redcap:Variable="email" redcap:FieldType="text" redcap:Identifier="y" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Email</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pt_address" Name="pt_address" DataType="text" Length="999" redcap:Variable="pt_address" redcap:FieldType="textarea" redcap:BranchingLogic="[manually_input] = &#039;2&#039; or [admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Address (Street, City, State ZIP)
+
+22 Beach Rd., Charleston, SC 29403</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_enrolled" Name="date_enrolled" DataType="date" Length="999" redcap:Variable="date_enrolled" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:FieldNote="YYYY-MM-DD" redcap:SectionHeader="Section B: Vaccine Information" redcap:FieldAnnotation="@HIDDEN @TODAY">
+		<Question><TranslatedText>Enrollment Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="vaccine_received" Name="vaccine_received" DataType="boolean" Length="1" redcap:Variable="vaccine_received" redcap:FieldType="yesno" redcap:RequiredField="y" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Have you ever received a dose of COVID-19 vaccine?</TranslatedText></Question>
+		<CodeListRef CodeListOID="vaccine_received.choices"/>
+	</ItemDef>
+	<ItemDef OID="vaccine_name" Name="vaccine_name" DataType="text" Length="1" redcap:Variable="vaccine_name" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[vaccine_received] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>If yes, which COVID-19 vaccine product did you receive?</TranslatedText></Question>
+		<CodeListRef CodeListOID="vaccine_name.choices"/>
+	</ItemDef>
+	<ItemDef OID="vaccine_date_1st" Name="vaccine_date_1st" DataType="date" Length="999" redcap:Variable="vaccine_date_1st" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:FieldNote="YYYY-MM-DD" redcap:RequiredField="y" redcap:BranchingLogic="[vaccine_name] = &#039;1&#039; or [vaccine_name] = &#039;2&#039; or [vaccine_name] = &#039;3&#039; or [vaccine_name] = &#039;4&#039;">
+		<Question><TranslatedText>First Dose - Date:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="vaccine_date_2nd" Name="vaccine_date_2nd" DataType="date" Length="999" redcap:Variable="vaccine_date_2nd" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:FieldNote="YYYY-MM-DD" redcap:RequiredField="y" redcap:BranchingLogic="[vaccine_name] = &#039;1&#039; or [vaccine_name] = &#039;2&#039;">
+		<Question><TranslatedText>Second Dose - Date:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="vaccination_phase" Name="vaccination_phase" DataType="text" Length="1" redcap:Variable="vaccination_phase" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>The Priority for the COVID-19 Vaccines</TranslatedText></Question>
+		<CodeListRef CodeListOID="vaccination_phase.choices"/>
+	</ItemDef>
+	<ItemDef OID="vaccine_status" Name="vaccine_status" DataType="text" Length="1" redcap:Variable="vaccine_status" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Vaccine Status</TranslatedText></Question>
+		<CodeListRef CodeListOID="vaccine_status.choices"/>
+	</ItemDef>
+	<ItemDef OID="opt_out___1" Name="opt_out___1" DataType="boolean" Length="1" redcap:Variable="opt_out" redcap:FieldType="checkbox" redcap:SectionHeader="Section C: Attempt Detail" redcap:BranchingLogic="[vaccine_status] = &#039;1&#039; or [vaccine_status] = &#039;2&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>&quot;The patient has indicated that they would like to opt-out from being contacted about potential research studies. 
+
+*Check this Box ONLY if the patient has voiced their preference to be removed from receiving ANY further contact about potential research studies.  
+&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="opt_out___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="decline___1" Name="decline___1" DataType="boolean" Length="1" redcap:Variable="decline" redcap:FieldType="checkbox" redcap:BranchingLogic="([vaccine_status] = &#039;1&#039; or [vaccine_status] = &#039;2&#039;) and [opt_out]&lt;&gt;&#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Please confirm that the patient no longer wishes to receive future contact about ANY research studies they may qualify for. If they confirm, please state the following:   &quot;We have now documented that you no longer want to be contacted about research studies you may qualify for and all reasonable efforts will be made to prevent this contact. Please note, that this does not prevent your doctors from discussing research studies with you when you are seeking clinical care. Also, should you change your mind and want to be contacted about research studies in the future, you can update your preference in MyChart.&quot;   Have you confirmed and read the participant the above text.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p class=&quot;p1&quot;&gt;Please confirm that the patient no longer wishes to receive future contact about ANY research studies they may qualify for. If they confirm, please state the following:&lt;/p&gt; &lt;p class=&quot;p2&quot;&gt; &lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&quot;We have now documented that you no longer want to be contacted about research studies you may qualify for and all reasonable efforts will be made to prevent this contact. Please note, that this does not prevent your doctors from discussing research studies with you when you are seeking clinical care. Also, should you change your mind and want to be contacted about research studies in the future, you can update your preference in MyChart.&quot;&lt;/p&gt; &lt;p class=&quot;p2&quot;&gt; &lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;Have you confirmed and read the participant the above text.&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="decline___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="total_contact" Name="total_contact" DataType="text" Length="2" redcap:Variable="total_contact" redcap:FieldType="select" redcap:TextValidationType="autocomplete" redcap:BranchingLogic="([vaccine_status] = &#039;1&#039; or [vaccine_status] = &#039;2&#039;) and [decline]&lt;&gt;&#039;1&#039;">
+		<Question><TranslatedText>Total times contacted</TranslatedText></Question>
+		<CodeListRef CodeListOID="total_contact.choices"/>
+	</ItemDef>
+	<ItemDef OID="contacted" Name="contacted" DataType="text" Length="1" redcap:Variable="contacted" redcap:FieldType="radio" redcap:BranchingLogic="([vaccine_status] = &#039;1&#039; or [vaccine_status] = &#039;2&#039;) and [decline]&lt;&gt;&#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Person contacted?</TranslatedText></Question>
+		<CodeListRef CodeListOID="contacted.choices"/>
+	</ItemDef>
+	<ItemDef OID="date_contact" Name="date_contact" DataType="date" Length="999" redcap:Variable="date_contact" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:BranchingLogic="([vaccine_status] = &#039;1&#039; or [vaccine_status] = &#039;2&#039;) and [decline]&lt;&gt;&#039;1&#039;">
+		<Question><TranslatedText>Date of contact/attempted contact</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="subres" Name="subres" DataType="text" Length="1" redcap:Variable="subres" redcap:FieldType="radio" redcap:BranchingLogic="([vaccine_status] = &#039;1&#039; or [vaccine_status] = &#039;2&#039;) and [decline]&lt;&gt;&#039;1&#039;" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Subject receptiveness (1 = Least responsive, 5 = most responsive)
+
+- Choose 1 if patient declined the interventions
+- Choose n/a if you were unable to speak with the patient</TranslatedText></Question>
+		<CodeListRef CodeListOID="subres.choices"/>
+	</ItemDef>
+	<ItemDef OID="method_contact" Name="method_contact" DataType="text" Length="1" redcap:Variable="method_contact" redcap:FieldType="select" redcap:BranchingLogic="([vaccine_status] = &#039;1&#039; or [vaccine_status] = &#039;2&#039;) and [decline]&lt;&gt;&#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Contact Method</TranslatedText><redcap:FormattedTranslatedText>&lt;p&gt;Contact Method&lt;/p&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="method_contact.choices"/>
+	</ItemDef>
+	<ItemDef OID="facility_code" Name="facility_code" DataType="text" Length="999" redcap:Variable="facility_code" redcap:FieldType="text" redcap:SectionHeader="Section D: Clinical Consideration Information
+" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Healthcare Facility Code</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mpi" Name="mpi" DataType="text" Length="999" redcap:Variable="mpi" redcap:FieldType="text" redcap:Identifier="y" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Master Patient Index</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="covid_test" Name="covid_test" DataType="text" Length="1" redcap:Variable="covid_test" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;">
+		<Question><TranslatedText>Have you ever had a positive test for COVID-19 or has a doctor ever told you that you had COVID-19?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Have you ever had a &lt;span style=&quot;color: #e03e2d;&quot;&gt;positive test&lt;/span&gt; for COVID-19 or has a doctor ever told you that you had COVID-19?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="covid_test.choices"/>
+	</ItemDef>
+	<ItemDef OID="covid_test_date" Name="covid_test_date" DataType="date" Length="999" redcap:Variable="covid_test_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:FieldNote="YYYY-MM-DD" redcap:RequiredField="y" redcap:BranchingLogic="[covid_test] = &#039;1&#039;">
+		<Question><TranslatedText>The Date of the Last positive Test</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;The Date of the &lt;span style=&quot;color: #e03e2d;&quot;&gt;Last&lt;/span&gt; &lt;span style=&quot;color: #e03e2d;&quot;&gt;positive&lt;/span&gt; Test&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="covid_infusion" Name="covid_infusion" DataType="boolean" Length="1" redcap:Variable="covid_infusion" redcap:FieldType="yesno" redcap:BranchingLogic="[covid_test] = &#039;1&#039;">
+		<Question><TranslatedText>Have you received passive antibody therapy (monoclonal antibodies or convalescent serum) as
+treatment for COVID-19?</TranslatedText></Question>
+		<CodeListRef CodeListOID="covid_infusion.choices"/>
+	</ItemDef>
+	<ItemDef OID="covid_infusion_date" Name="covid_infusion_date" DataType="text" Length="999" redcap:Variable="covid_infusion_date" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[covid_infusion] = &#039;1&#039;">
+		<Question><TranslatedText>The Date of the Last Passive Antibody Therapy Treatment</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_cancer" Name="are_inc_risk_cancer" DataType="text" Length="1" redcap:Variable="are_inc_risk_cancer" redcap:FieldType="radio" redcap:SectionHeader="Do you have the following conditions are at increased risk of severe illness from the virus that causes COVID-19:
+Additional information on these medical conditions is available at:
+https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Cancer</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_cancer.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_ckd" Name="are_inc_risk_ckd" DataType="text" Length="1" redcap:Variable="are_inc_risk_ckd" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Chronic kidney disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_ckd.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_copd" Name="are_inc_risk_copd" DataType="text" Length="1" redcap:Variable="are_inc_risk_copd" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>COPD (chronic obstructive pulmonary disease)</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_copd.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_ds" Name="are_inc_risk_ds" DataType="text" Length="1" redcap:Variable="are_inc_risk_ds" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Down Syndrome</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_ds.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_heart" Name="are_inc_risk_heart" DataType="text" Length="1" redcap:Variable="are_inc_risk_heart" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Heart conditions, such as heart failure, coronary artery disease, or cardiomyopathies</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_heart.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_wis" Name="are_inc_risk_wis" DataType="text" Length="1" redcap:Variable="are_inc_risk_wis" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Immunocompromised state (weakened immune system) from solid organ transplant</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_wis.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_obesity" Name="are_inc_risk_obesity" DataType="text" Length="1" redcap:Variable="are_inc_risk_obesity" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Obesity (body mass index [BMI] of 30 kg/m2 or higher but &lt; 40 kg/m2)</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_obesity.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_sobesity" Name="are_inc_risk_sobesity" DataType="text" Length="1" redcap:Variable="are_inc_risk_sobesity" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Severe Obesity (BMI ≥ 40 kg/m2)</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_sobesity.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_preg" Name="are_inc_risk_preg" DataType="text" Length="1" redcap:Variable="are_inc_risk_preg" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Pregnancy</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_preg.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_scd" Name="are_inc_risk_scd" DataType="text" Length="1" redcap:Variable="are_inc_risk_scd" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Sickle cell disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_scd.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_smoke" Name="are_inc_risk_smoke" DataType="text" Length="1" redcap:Variable="are_inc_risk_smoke" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Smoking</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_smoke.choices"/>
+	</ItemDef>
+	<ItemDef OID="are_inc_risk_type2diab" Name="are_inc_risk_type2diab" DataType="text" Length="1" redcap:Variable="are_inc_risk_type2diab" redcap:FieldType="radio" redcap:BranchingLogic="[admin_process_status] = &#039;1&#039; or [admin_process_status] = &#039;2&#039;" redcap:MatrixGroupName="are_inc_risk">
+		<Question><TranslatedText>Type 2 diabetes mellitus</TranslatedText></Question>
+		<CodeListRef CodeListOID="are_inc_risk_type2diab.choices"/>
+	</ItemDef>
+	<ItemDef OID="admin_process_status" Name="admin_process_status" DataType="text" Length="1" redcap:Variable="admin_process_status" redcap:FieldType="radio" redcap:CustomAlignment="RH" redcap:FieldAnnotation="@HIDDEN @DEFAULT=&#039;0&#039;">
+		<Question><TranslatedText>The process status </TranslatedText></Question>
+		<CodeListRef CodeListOID="admin_process_status.choices"/>
+	</ItemDef>
+	<ItemDef OID="admin_process_time" Name="admin_process_time" DataType="partialDatetime" Length="999" redcap:Variable="admin_process_time" redcap:FieldType="text" redcap:TextValidationType="datetime_ymd" redcap:FieldAnnotation="@HIDDEN @READONLY">
+		<Question><TranslatedText>The Last Process Time</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="admin_unique_key" Name="admin_unique_key" DataType="text" Length="1" redcap:Variable="admin_unique_key" redcap:FieldType="radio" redcap:CustomAlignment="RH" redcap:FieldAnnotation="@HIDDEN @READONLY">
+		<Question><TranslatedText>Unique Key</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="vaccination_outreach_table_complete" Name="vaccination_outreach_table_complete" DataType="text" Length="1" redcap:Variable="vaccination_outreach_table_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="vaccination_outreach_table_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="complete_study" Name="complete_study" DataType="boolean" Length="1" redcap:Variable="complete_study" redcap:FieldType="yesno" redcap:SectionHeader="This form is to be filled out by primary contact personnel." redcap:RequiredField="y">
+		<Question><TranslatedText>Is this requested outreach service completed?</TranslatedText></Question>
+		<CodeListRef CodeListOID="complete_study.choices"/>
+	</ItemDef>
+	<ItemDef OID="withdraw_date" Name="withdraw_date" DataType="date" Length="999" redcap:Variable="withdraw_date" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldNote="MM-DD-YYYY" redcap:RequiredField="y" redcap:BranchingLogic="[complete_study] = &#039;0&#039;">
+		<Question><TranslatedText>Put a date if withdrew</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="study_comments" Name="study_comments" DataType="text" Length="999" redcap:Variable="study_comments" redcap:FieldType="textarea">
+		<Question><TranslatedText>Comments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="completion_data_to_be_entered_by_registered_redcap_complete" Name="completion_data_to_be_entered_by_registered_redcap_complete" DataType="text" Length="1" redcap:Variable="completion_data_to_be_entered_by_registered_redcap_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="completion_data_to_be_entered_by_registered_redcap_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="consent___1.choices" Name="consent___1" DataType="boolean" redcap:Variable="consent" redcap:CheckboxChoices="1, I Agree">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prescreening_registration_complete.choices" Name="prescreening_registration_complete" DataType="text" redcap:Variable="prescreening_registration_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="manually_input.choices" Name="manually_input" DataType="text" redcap:Variable="manually_input">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Bulk Upload</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Manually Input</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="demographic_file_upload_complete.choices" Name="demographic_file_upload_complete" DataType="text" redcap:Variable="demographic_file_upload_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="gender.choices" Name="gender" DataType="text" redcap:Variable="gender">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Female</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Male</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Unknown / Not Reported</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ethnic.choices" Name="ethnic" DataType="text" redcap:Variable="ethnic">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Hispanic or Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>NOT Hispanic or Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Unknown / Not Reported</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="race.choices" Name="race" DataType="text" redcap:Variable="race">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>American Indian/Alaska Native</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Asian</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Native Hawaiian or Other Pacific Islander</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Black or African American</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>White</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>More Than One Race</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Unknown / Not Reported</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="vaccine_received.choices" Name="vaccine_received" DataType="boolean" redcap:Variable="vaccine_received">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="vaccine_name.choices" Name="vaccine_name" DataType="text" redcap:Variable="vaccine_name">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Pfizer</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Moderna</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Johnson &amp; Johnson</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Another product</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="vaccination_phase.choices" Name="vaccination_phase" DataType="text" redcap:Variable="vaccination_phase">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>PHASE 1a</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>PHASE 1b</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>PHASE 1c</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>PHASE 2</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="vaccine_status.choices" Name="vaccine_status" DataType="text" redcap:Variable="vaccine_status">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not Found</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Partial</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Completed</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="opt_out___1.choices" Name="opt_out___1" DataType="boolean" redcap:Variable="opt_out" redcap:CheckboxChoices="1, Yes">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="decline___1.choices" Name="decline___1" DataType="boolean" redcap:Variable="decline" redcap:CheckboxChoices="1, Yes">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="total_contact.choices" Name="total_contact" DataType="text" redcap:Variable="total_contact">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>5</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>6</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>7</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>8</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>9</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>10</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>11</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="12"><Decode><TranslatedText>12</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="13"><Decode><TranslatedText>13</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="14"><Decode><TranslatedText>14</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="15"><Decode><TranslatedText>15</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="16"><Decode><TranslatedText>16</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="17"><Decode><TranslatedText>17</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="18"><Decode><TranslatedText>18</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="19"><Decode><TranslatedText>19</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="20"><Decode><TranslatedText>20</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="21"><Decode><TranslatedText>21</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="22"><Decode><TranslatedText>22</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="23"><Decode><TranslatedText>23</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="24"><Decode><TranslatedText>24</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="25"><Decode><TranslatedText>25</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="26"><Decode><TranslatedText>26</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="27"><Decode><TranslatedText>27</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="28"><Decode><TranslatedText>28</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="29"><Decode><TranslatedText>29</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="30"><Decode><TranslatedText>30</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="contacted.choices" Name="contacted" DataType="text" redcap:Variable="contacted">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Voicemail left</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Text</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Declined the intervention</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="subres.choices" Name="subres" DataType="text" redcap:Variable="subres">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>5</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>n/a</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="method_contact.choices" Name="method_contact" DataType="text" redcap:Variable="method_contact">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Text</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Email</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Phone</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="covid_test.choices" Name="covid_test" DataType="text" redcap:Variable="covid_test">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Unsure</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="covid_infusion.choices" Name="covid_infusion" DataType="boolean" redcap:Variable="covid_infusion">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_cancer.choices" Name="are_inc_risk_cancer" DataType="text" redcap:Variable="are_inc_risk_cancer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_ckd.choices" Name="are_inc_risk_ckd" DataType="text" redcap:Variable="are_inc_risk_ckd">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_copd.choices" Name="are_inc_risk_copd" DataType="text" redcap:Variable="are_inc_risk_copd">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_ds.choices" Name="are_inc_risk_ds" DataType="text" redcap:Variable="are_inc_risk_ds">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_heart.choices" Name="are_inc_risk_heart" DataType="text" redcap:Variable="are_inc_risk_heart">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_wis.choices" Name="are_inc_risk_wis" DataType="text" redcap:Variable="are_inc_risk_wis">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_obesity.choices" Name="are_inc_risk_obesity" DataType="text" redcap:Variable="are_inc_risk_obesity">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_sobesity.choices" Name="are_inc_risk_sobesity" DataType="text" redcap:Variable="are_inc_risk_sobesity">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_preg.choices" Name="are_inc_risk_preg" DataType="text" redcap:Variable="are_inc_risk_preg">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_scd.choices" Name="are_inc_risk_scd" DataType="text" redcap:Variable="are_inc_risk_scd">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_smoke.choices" Name="are_inc_risk_smoke" DataType="text" redcap:Variable="are_inc_risk_smoke">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="are_inc_risk_type2diab.choices" Name="are_inc_risk_type2diab" DataType="text" redcap:Variable="are_inc_risk_type2diab">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="admin_process_status.choices" Name="admin_process_status" DataType="text" redcap:Variable="admin_process_status">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not Found</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1st Dose</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2nd Dose</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Finished</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Skipped</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="vaccination_outreach_table_complete.choices" Name="vaccination_outreach_table_complete" DataType="text" redcap:Variable="vaccination_outreach_table_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="complete_study.choices" Name="complete_study" DataType="boolean" redcap:Variable="complete_study">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="completion_data_to_be_entered_by_registered_redcap_complete.choices" Name="completion_data_to_be_entered_by_registered_redcap_complete" DataType="text" redcap:Variable="completion_data_to_be_entered_by_registered_redcap_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
