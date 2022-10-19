@@ -18,6 +18,10 @@ buildNumber.properties
 # Log file
 *.log
 
+# data
+*.csv
+*.tsv
+
 # BlueJ files
 *.ctxt
 
